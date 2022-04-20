@@ -1,0 +1,19 @@
+[
+    {
+        "id":"web",
+        "title": "Aplicacion Web",
+        "info": "",
+        "links": [
+            {"url":"https://parroquias.csbook.es","text":"Ver la web"},
+            {"url":"https://guias.csbook.es","text":"Ver la ayuda"}
+        ]
+    },
+    {
+        "id":"app",
+        "title": "Aplicaciones Móviles",
+        "info": "",
+        "links": [
+            {"url":"","text":""}
+        ]
+    }
+]
