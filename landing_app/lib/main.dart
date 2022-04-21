@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:landing/main_page.dart';
+import 'package:landing/pages/main_adaptative.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Catholic Song Book',
       theme: ThemeData.dark(),
-      home: const MainPage(),
+      home: const MainAdaptative(),
     );
   }
 }

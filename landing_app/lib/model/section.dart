@@ -1,5 +1,8 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 class Section {
   final String id;
   final String title;
@@ -18,7 +21,8 @@ class Section {
     var jsonObject = jsonDecode(json) as List;
     return jsonObject.map((e) {
       var links = (e['links'] as List)
-          .map((e) => SectionLink(url: e['url'], text: e['text']))
+          .map((e) =>
+              SectionLink(url: e['url'], text: e['text'], icon: e['icon']))
           .toList();
       return Section(
           id: e['id'],
@@ -36,4 +40,15 @@ class SectionLink {
   final String? icon;
 
   SectionLink({required this.url, required this.text, this.icon});
+
+  IconData? getIconData() {
+    if (icon != null) {
+      if (icon == "github") {
+        return FontAwesomeIcons.github;
+      } else if (icon == "firefoxBrowser") {
+        return FontAwesomeIcons.firefoxBrowser;
+      }
+    }
+    return null;
+  }
 }
