@@ -1,7 +1,7 @@
 [
     {
         "id":"web",
-        "title": "Aplicacion Web",
+        "title": "Aplicación Web",
         "info": "Aplicación web donde se pueden ver las canciones con acordes listas para tocar en cualquier momento.\n\nEn ella podras ver y crear canciones con acordes, asi como ver y crear misas con dichas canciones, crear cancioneros y mucho mas.\n\nLa aplicación es multi-parroquia, ¡descubre que se canta este domingo en España!",
         "devInfo":"",
         "links": [
