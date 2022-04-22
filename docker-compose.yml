@@ -6,8 +6,6 @@ services:
     volumes:
       - ./dist:/usr/share/nginx/html
       - ./dist:/usr/share/nginx/www
-    ports:
-      - "80:80"
     restart: unless-stopped
 
 networks:
