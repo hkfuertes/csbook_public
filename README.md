@@ -12,8 +12,8 @@ This sections are:
 - **Masses**: You have the ability to create and edit masses, adjusting the tone for that specific mass. In the mass view page, you have also the ability to change the notation and to download the _**word**_ and _**ppt**_. The _**ppt**_ format is just a help, a styling work is needed with the raw downloaded file.
 - **Songbooks**: The system can provide you with a doc file with a set of songs. Again a styling work may be needed. Once the document is approved for release, a public _url_ can be provided and stored int he system. Also a manual work is offered to enter the index of every song so that can be displayed on the mass view page.
 
-## Side projects
+## Projects
 - Main project: https://parroquias.csbook.es
-- This web app has a sister project, a Flutter app that can be found here: https://github.com/hkfuertes/csbook_app
+- Flutter app that can be found here: https://github.com/hkfuertes/csbook_app
 - ~There is also a guide site with help in spanish on how to use the app (outdated): https://guias.csbook.es~
 - This github's code, a landing page for the project that can be found at the root of this domain: https://csbook.es
