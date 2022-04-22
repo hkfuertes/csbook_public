@@ -1,0 +1,21 @@
+[
+    {
+        "id":"web",
+        "title": "Aplicación Web",
+        "info": "Aplicación web donde se pueden ver las canciones con acordes listas para tocar en cualquier momento.\n\nEn ella podras ver y crear canciones con acordes, asi como ver y crear misas con dichas canciones, crear cancioneros y mucho mas.\n\nLa aplicación es multi-parroquia, ¡descubre que se canta este domingo en España!",
+        "devInfo":"",
+        "links": [
+            {"url":"https://parroquias.csbook.es","text":"Visitar", "icon":"firefoxBrowser"},
+            {"url":"https://github.com/hkfuertes/csbook_public","text":"Proyecto", "icon":"github"}
+        ]
+    },
+    {
+        "id":"app",
+        "title": "Aplicaciones Móviles",
+        "info": "También se han creado aplicaciones móviles. Con ellas podras acceder al portal desde tu dispositivo movil.\n\nLa versión Android se provee como un APK que puedes instalar en el telefono.\n\nPara la versión iOS necesitas firmarlo con tu cuenta de apple (usando Sideloadly por ejemplo).",
+        "devInfo":"",
+        "links": [
+            {"url":"https://github.com/hkfuertes/csbook_app/releases","text":"Descargar", "icon":"github"}
+        ]
+    }
+]
