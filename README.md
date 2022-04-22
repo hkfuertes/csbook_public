@@ -16,4 +16,4 @@ This sections are:
 - Main project: https://parroquias.csbook.es
 - This web app has a sister project, a Flutter app that can be found here: https://github.com/hkfuertes/csbook_app
 - There is also a guide site with help in spanish on how to use the app (outdated): https://guias.csbook.es
-- This projects' code, a landing page for the project that can be found at the root of this domain: https://csbook.es
+- This github's code, a landing page for the project that can be found at the root of this domain: https://csbook.es
